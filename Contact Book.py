@@ -11,7 +11,8 @@ def search_contact():
   for name, details in contact_book.items():
     if search_term in name:
       print(f"Name: {name}, Phone: {details['phone']}, Email: {details['email']}")
-      
+    else:
+      print("Name doesn't Found")
 def display_contact():
    print("\nAll Contacts:")
    for name,details in contact_book.items():
@@ -31,11 +32,10 @@ while True:
     search_contact()
   elif choice == "3":
     display_contact()
-#print("\nAll Contacts:")
- #   for name, details in contact_book.items():
-  #    print(f"Name: {name}, Phone: {details['phone']}, Email: {details['email']}")
   elif choice == "0":
     break
   else:
     print("Invalid choice")
     
+
+
