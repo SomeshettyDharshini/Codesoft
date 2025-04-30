@@ -28,5 +28,5 @@ def rock_paper_scissors():            #Function Creation :Reuse the block of cod
           computer_win+=1
      print("Player count is:",player_win)
      print("Computer count is:",computer_win)
-     print("Ties,:",tie)
+     print("Ties:",tie)
 rock_paper_scissors()  # Calling a Function
