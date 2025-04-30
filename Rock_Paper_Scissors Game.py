@@ -10,7 +10,7 @@ def rock_paper_scissors():            #Function Creation :Reuse the block of cod
   print("Scissors")
   while True:     # While Loop: While Loop runs as long as a condition is true.
      player=str(input("Select an option :")).lower()
-     computer = random.choice(choice)
+     computer = random.choice(choice)  #random=to choose any one from given choice (random Function)
      print(f"You: {player}, Computer: {computer}")
  #Conditional Statement (elif) : If one condition is not satisfied its check with another(elif) condition ,if not prints else Statement.
      if player==computer:
