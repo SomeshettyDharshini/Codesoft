@@ -25,7 +25,7 @@ while True:        # While Loop: The While Loop runs as Long as a condition is s
   print("3. Display Contacts")
   
   choice = input("Enter your choice: ")
-
+  #Conditional Statement (elif) :If one condition is not satisfied its check with another(elif) condition ,if not prints else Statement.
   if choice == "1":            #
     add_contact()
   elif choice == "2":
