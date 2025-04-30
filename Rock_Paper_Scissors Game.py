@@ -1,5 +1,5 @@
 import random
-def rock_paper_scissors():
+def rock_paper_scissors():            #Function Creation :Reuse the block of code ,by calling a function.
   choice=["rock","paper","scissors"]
   player_win=0
   computer_win=0
@@ -8,10 +8,11 @@ def rock_paper_scissors():
   print("Rock")
   print("Paper")
   print("Scissors")
-  while True:
+  while True:     # While Loop: While Loop runs as long as a condition is true.
      player=str(input("Select an option :")).lower()
      computer = random.choice(choice)
      print(f"You: {player}, Computer: {computer}")
+ #Conditional Statement (elif) : If one condition is not satisfied its check with another(elif) condition ,if not prints else Statement.
      if player==computer:
          print("Tie!..")
          tie=+1
@@ -28,4 +29,4 @@ def rock_paper_scissors():
      print("Player count is:",player_win)
      print("Computer count is:",computer_win)
      print("Ties,:",tie)
-rock_paper_scissors() 
+rock_paper_scissors()  # Calling a Function
